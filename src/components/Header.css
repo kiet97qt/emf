@@ -1,0 +1,37 @@
+.header-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.language-menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.language-flag {
+  margin-right: 8px;
+  width: 20px;
+  height: 14px;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: currentColor;
+  transition: width 0.3s;
+}
+
+.nav-link.active::after,
+.nav-link:hover::after {
+  width: 100%;
+}

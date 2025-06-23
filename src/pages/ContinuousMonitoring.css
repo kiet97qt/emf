@@ -1,0 +1,27 @@
+.station-card {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.station-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.station-card.selected {
+  border: 2px solid #1976d2;
+}
+
+.chart-container {
+  height: 300px;
+  width: 100%;
+}
+
+.filter-section {
+  margin-bottom: 24px;
+}
+
+.station-list {
+  max-height: 500px;
+  overflow-y: auto;
+}

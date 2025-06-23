@@ -1,0 +1,21 @@
+.legal-regulations-page {
+  padding-bottom: 40px;
+}
+
+.document-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.document-card .MuiCardContent-root {
+  flex-grow: 1;
+}
+
+.document-list-item {
+  padding: 16px;
+}
+
+.document-list-item:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}

@@ -1,0 +1,19 @@
+.open-data-page {
+  padding-bottom: 40px;
+}
+
+.dataset-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dataset-card .MuiCardContent-root {
+  flex-grow: 1;
+}
+
+.api-code {
+  overflow-x: auto;
+  white-space: nowrap;
+  font-family: monospace;
+}

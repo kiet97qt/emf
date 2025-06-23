@@ -1,0 +1,247 @@
+{
+  "app": {
+    "title": "Mreža za praćenje EM polja"
+  },
+  "nav": {
+    "home": "Početna",
+    "continuousMonitoring": "Kontinuirano praćenje",
+    "campaignMeasurements": "Kampanjska merenja",
+    "emfInfo": "Informacije o EM poljima",
+    "legalRegulations": "Pravna regulativa",
+    "openData": "Otvoreni podaci",
+    "contact": "Kontakt"
+  },
+  "language": {
+    "en": "Engleski",
+    "sr-Latn": "Srpski (latinica)",
+    "sr-Cyrl": "Srpski (ćirilica)"
+  },
+  "home": {
+    "hero": {
+      "title": "Mreža za praćenje elektromagnetnih polja",
+      "subtitle": "Pružamo transparentna i pouzdana merenja EM polja za javnu bezbednost",
+      "cta": "Istražite mapu"
+    },
+    "stats": {
+      "stations": "Stanice za praćenje",
+      "measurements": "Merenja",
+      "campaigns": "Merne kampanje",
+      "area": "Pokrivena površina"
+    },
+    "features": {
+      "title": "Funkcionalnosti",
+      "realtime": {
+        "title": "Praćenje u realnom vremenu",
+        "description": "Pristupite kontinuiranim merenjima iz naše mreže fiksnih stanica za praćenje"
+      },
+      "campaigns": {
+        "title": "Merne kampanje",
+        "description": "Pogledajte rezultate ciljanih mernih kampanja u specifičnim područjima"
+      },
+      "opendata": {
+        "title": "Otvoreni podaci",
+        "description": "Preuzmite podatke merenja za istraživanje i analizu"
+      },
+      "standards": {
+        "title": "Usklađenost sa standardima",
+        "description": "Sva merenja se upoređuju sa međunarodnim standardima bezbednosti"
+      }
+    },
+    "map": {
+      "title": "Najnovija merenja",
+      "viewAll": "Pogledajte sva merenja"
+    },
+    "about": {
+      "title": "O mreži",
+      "description": "Mreža za praćenje EM polja pruža kontinuirano praćenje nivoa elektromagnetnih polja u urbanim i ruralnim područjima. Naša misija je da osiguramo transparentnost i pružimo pouzdane informacije o izloženosti EM poljima javnosti.",
+      "learnMore": "Saznajte više"
+    }
+  },
+  "continuousMonitoring": {
+    "title": "Kontinuirano praćenje",
+    "description": "Naša mreža fiksnih stanica za praćenje pruža kontinuirana merenja nivoa elektromagnetnih polja. Izaberite stanicu da biste videli detaljne podatke.",
+    "stations": "Stanice za praćenje",
+    "noStationSelected": "Izaberite stanicu da biste videli njene podatke",
+    "filters": {
+      "title": "Filteri",
+      "timeRange": "Vremenski opseg",
+      "frequency": "Frekvencijski opseg",
+      "all": "Sve",
+      "apply": "Primeni filtere"
+    },
+    "chart": {
+      "title": "Istorija merenja",
+      "yAxis": "Jačina polja (V/m)",
+      "xAxis": "Vreme"
+    },
+    "stationDetails": {
+      "location": "Lokacija",
+      "coordinates": "Koordinate",
+      "installDate": "Datum instalacije",
+      "lastUpdate": "Poslednje ažuriranje",
+      "currentValue": "Trenutna vrednost",
+      "average": "24h prosek",
+      "maximum": "24h maksimum"
+    }
+  },
+  "campaignMeasurements": {
+    "title": "Kampanjska merenja",
+    "description": "Pogledajte rezultate ciljanih mernih kampanja sprovedenih u specifičnim područjima. Ove kampanje pružaju detaljno mapiranje EM polja za područja od interesa.",
+    "campaigns": "Merne kampanje",
+    "noCampaignSelected": "Izaberite kampanju da biste videli njene detalje",
+    "filters": {
+      "title": "Filteri",
+      "date": "Vremenski period",
+      "area": "Područje",
+      "all": "Sve",
+      "apply": "Primeni filtere"
+    },
+    "campaignDetails": {
+      "date": "Datum kampanje",
+      "area": "Područje",
+      "points": "Merne tačke",
+      "equipment": "Korišćena oprema",
+      "purpose": "Svrha",
+      "results": "Rezime rezultata",
+      "measurements": "Merenja",
+      "downloadReport": "Preuzmi izveštaj"
+    }
+  },
+  "emfInfo": {
+    "title": "Informacije o EM poljima",
+    "whatIsEmf": {
+      "title": "Šta su elektromagnetna polja?",
+      "description": "Elektromagnetna polja (EM polja) su kombinacija nevidljivih električnih i magnetnih polja sile. Generišu ih prirodni fenomeni poput Zemljinog magnetnog polja, ali i ljudske aktivnosti, posebno upotreba elektronskih uređaja i električne energije."
+    },
+    "sources": {
+      "title": "Uobičajeni izvori EM polja",
+      "natural": "Prirodni izvori",
+      "artificial": "Veštački izvori",
+      "naturalSources": [
+        "Zemljino magnetno polje",
+        "Sunčevo zračenje",
+        "Munje"
+      ],
+      "artificialSources": [
+        "Bazne stanice mobilne telefonije",
+        "Dalekovodi",
+        "Bežične mreže (Wi-Fi)",
+        "Radiodifuzne antene",
+        "Kućni aparati"
+      ]
+    },
+    "standards": {
+      "title": "Standardi bezbednosti",
+      "description": "Međunarodne organizacije su uspostavile smernice za bezbednost izlaganja EM poljima. Ove smernice su zasnovane na naučnim istraživanjima i uključuju velike sigurnosne margine.",
+      "icnirp": "ICNIRP smernice",
+      "who": "Preporuke SZO",
+      "national": "Nacionalni standardi"
+    },
+    "effects": {
+      "title": "Zdravstveni efekti",
+      "description": "Prema Svetskoj zdravstvenoj organizaciji (SZO), trenutni dokazi ne potvrđuju postojanje bilo kakvih zdravstvenih posledica od izlaganja elektromagnetnim poljima niskog nivoa. Međutim, istraživanja na ovu temu se nastavljaju.",
+      "research": "Tekuća istraživanja"
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "questions": [
+        {
+          "question": "Da li su mobilni telefoni bezbedni?",
+          "answer": "Prema trenutnim naučnim dokazima, mobilni telefoni koji rade u okviru međunarodnih smernica ne proizvode štetne zdravstvene efekte. Ako ste zabrinuti, možete ograničiti izloženost korišćenjem hands-free uređaja ili slanjem poruka."
+        },
+        {
+          "question": "Koja je razlika između jonizujućeg i nejonizujućeg zračenja?",
+          "answer": "Jonizujuće zračenje (poput X-zraka) ima dovoljno energije da ukloni elektrone iz atoma, što može oštetiti DNK. Nejonizujuće zračenje (poput radio talasa, mikrotalasa i EM polja iz dalekovoda) nema dovoljno energije da ukloni elektrone iz atoma."
+        },
+        {
+          "question": "Kako se mere nivoi EM polja?",
+          "answer": "Nivoi EM polja se obično mere korišćenjem specijalizovane opreme poput analizatora spektra i merača jačine polja. Jedinice merenja su volti po metru (V/m) za električna polja i amperi po metru (A/m) ili tesla (T) za magnetna polja."
+        }
+      ]
+    }
+  },
+  "legalRegulations": {
+    "title": "Pravna regulativa",
+    "description": "Ovaj odeljak pruža informacije o međunarodnim i nacionalnim propisima u vezi sa graničnim vrednostima izlaganja elektromagnetnim poljima i zahtevima za praćenje.",
+    "international": {
+      "title": "Međunarodni standardi",
+      "description": "Međunarodne organizacije su uspostavile smernice za ograničavanje izlaganja elektromagnetnim poljima."
+    },
+    "eu": {
+      "title": "Propisi Evropske unije",
+      "description": "Evropska unija je usvojila nekoliko direktiva i preporuka u vezi sa izlaganjem EM poljima."
+    },
+    "national": {
+      "title": "Nacionalni propisi",
+      "description": "Nacionalni propisi implementiraju i ponekad proširuju međunarodne i EU standarde."
+    },
+    "documentType": "Tip dokumenta",
+    "publicationDate": "Datum objavljivanja",
+    "viewDocument": "Pogledaj dokument"
+  },
+  "openData": {
+    "title": "Otvoreni podaci",
+    "description": "Pristupite i preuzmite podatke merenja elektromagnetnih polja za istraživanje, analizu ili bilo koju drugu svrhu. Svi podaci su dostupni pod otvorenom licencom.",
+    "dataAccess": {
+      "title": "Opcije pristupa podacima",
+      "description": "Izaberite metod koji najbolje odgovara vašim potrebama:"
+    },
+    "download": "Preuzmi",
+    "api": {
+      "title": "API pristup",
+      "description": "Za programski pristup našim podacima, koristite naš REST API:",
+      "endpoint": "Krajnja tačka",
+      "parameters": "Parametri",
+      "authentication": "Autentifikacija",
+      "documentation": "Pogledaj API dokumentaciju"
+    },
+    "availableDatasets": "Dostupni skupovi podataka",
+    "dataFormat": "Format podataka",
+    "dataSize": "Veličina podataka",
+    "dataLicense": "Licenca za podatke",
+    "licenseDescription": "Svi podaci su dostupni pod Creative Commons Attribution 4.0 International licencom, koja omogućava deljenje i adaptaciju podataka za bilo koju svrhu, pod uslovom da se daje odgovarajući kredit.",
+    "viewLicense": "Pogledaj licencu",
+    "dataUsage": "Kako se naši podaci koriste",
+    "research": "Istraživanje",
+    "policyMaking": "Kreiranje politika",
+    "publicAwareness": "Javna svest",
+    "citingData": "Kako citirati naše podatke"
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "description": "Imate pitanja ili povratne informacije? Voleli bismo da čujemo od vas. Popunite formular ispod ili koristite navedene kontakt informacije.",
+    "form": {
+      "name": "Ime",
+      "email": "Email",
+      "subject": "Predmet",
+      "message": "Poruka",
+      "submit": "Pošalji poruku"
+    },
+    "info": {
+      "title": "Kontakt informacije",
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Adresa"
+    },
+    "success": "Vaša poruka je uspešno poslata. Uskoro ćemo vam odgovoriti.",
+    "error": "Došlo je do greške prilikom slanja vaše poruke. Molimo pokušajte ponovo."
+  },
+  "map": {
+    "value": "Vrednost",
+    "level": "Nivo",
+    "levelLow": "Nizak",
+    "levelMedium": "Srednji",
+    "levelHigh": "Visok",
+    "timestamp": "Vreme"
+  },
+  "footer": {
+    "about": "O nama",
+    "aboutText": "Mreža za praćenje EM polja pruža kontinuirano praćenje nivoa elektromagnetnih polja kako bi se osigurala javna bezbednost i transparentnost.",
+    "links": "Brzi linkovi",
+    "contact": "Kontakt",
+    "address": "Ulica za praćenje 123, Beograd, Srbija",
+    "rightsReserved": "Sva prava zadržana.",
+    "privacyPolicy": "Politika privatnosti",
+    "termsOfUse": "Uslovi korišćenja"
+  }
+}
